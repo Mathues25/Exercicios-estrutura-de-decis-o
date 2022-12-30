@@ -1,0 +1,21 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    string usuario="A,B,C";
+    Console.WriteLine ("DIGITE O CÓDIGO DO LIVRO");
+    usuario=Console.ReadLine();
+    if(usuario=="A"){
+      Console.WriteLine("Ficção");
+    }
+    else if(usuario=="B"){
+      Console.WriteLine("Não Ficção");
+    }
+    else if(usuario=="C"){
+      Console.WriteLine("Auto-ajuda");
+    }
+    else {
+      Console.WriteLine("inválido");
+    }
+}
+}
